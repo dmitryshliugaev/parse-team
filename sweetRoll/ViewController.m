@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "numbersForGamersViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import <stdlib.h>
 
 @interface ViewController ()
 {
@@ -25,7 +27,9 @@
 @implementation ViewController
 
 int lengthOfGamers = 30;
-int lengthOfCommand = 15;
+int lengthOfCommand = 3;
+int gamers = 2;
+int command = 2;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -73,15 +77,19 @@ int lengthOfCommand = 15;
     return 0;
 }
 
-- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
-    
-    // Some stuff
-    
-    // Assuming "yourDataArray" contains your strings
-    //selectedString = [yourDataArray objectAtIndex:row];
-    
-    NSLog(@"select %@", [_gamersPickerData objectAtIndex:row]);
-    
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+    if(pickerView == self.gamersPicker) {
+        gamers = [[_gamersPickerData objectAtIndex:row] intValue];
+        [_commandPickerData removeAllObjects];
+        for(int i=2; i <  gamers+1; i++) {
+            [_commandPickerData addObject:[NSString stringWithFormat:@"%d",i]];
+        }
+        [self.commandPicker reloadAllComponents];
+    }
+    else if(pickerView == self.commandPicker) {
+        command = [[_gamersPickerData objectAtIndex:row] intValue];
+    }
 }
 
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view
@@ -109,6 +117,49 @@ int lengthOfCommand = 15;
 }
 
 - (IBAction)runSort:(id)sender {
+    
+    int fullGamersOnCommand = gamers/command;
+    int restOfPlayers = gamers%command;
+    [_gamersToCommand removeAllObjects];
+    
+    NSMutableArray* numGamersToCommand = [[NSMutableArray alloc] init];
+    
+    if(gamers<command) {
+        return;
+    }
+    
+    for(int i=0; i < command; i++) {
+        [_gamersToCommand addObject:[[NSMutableArray alloc] init]];
+    }
+
+    for(int i=0; i < (gamers-restOfPlayers); i++) {
+        int commanToGamer = arc4random_uniform(command);
+        
+        NSMutableArray* commandPoint = [_gamersToCommand objectAtIndex:commanToGamer];
+        if([commandPoint count] < fullGamersOnCommand) {
+            [commandPoint addObject:[NSString stringWithFormat:@"%d", i+1]];
+            [numGamersToCommand addObject:[NSString stringWithFormat:@"%d", commanToGamer+1]];
+        }else {
+            i--;
+        }
+        
+    }
+    
+    if(restOfPlayers!=0) {
+        for (int i = (gamers-restOfPlayers), j=0; i < gamers; i++, j++) {
+            if([_gamersToCommand count]<j) {
+                j=0;
+            }
+            [[_gamersToCommand objectAtIndex:j] addObject:[NSString stringWithFormat:@"%d", i+1]];
+            [numGamersToCommand addObject:[NSString stringWithFormat:@"%d", j+1]];
+        }
+    }
+    
+    [[NSUserDefaults standardUserDefaults] setObject:numGamersToCommand forKey:@"gamersToCommand"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    numbersForGamersViewController *numbersForGamersView = [self.storyboard instantiateViewControllerWithIdentifier:@"numbersForGamers"];
+    [self.navigationController pushViewController:numbersForGamersView animated:YES];
 }
 
 @end

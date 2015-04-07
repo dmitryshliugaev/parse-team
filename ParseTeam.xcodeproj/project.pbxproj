@@ -10,10 +10,13 @@
 		7683ED761A8134B0005EC836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7683ED751A8134B0005EC836 /* main.m */; };
 		7683ED791A8134B0005EC836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7683ED781A8134B0005EC836 /* AppDelegate.m */; };
 		7683ED7C1A8134B0005EC836 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7683ED7B1A8134B0005EC836 /* ViewController.m */; };
-		7683ED7F1A8134B0005EC836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7683ED7D1A8134B0005EC836 /* Main.storyboard */; };
 		7683ED811A8134B0005EC836 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7683ED801A8134B0005EC836 /* Images.xcassets */; };
-		7683ED841A8134B0005EC836 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7683ED821A8134B0005EC836 /* LaunchScreen.xib */; };
 		7683ED901A8134B0005EC836 /* sweetRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7683ED8F1A8134B0005EC836 /* sweetRollTests.m */; };
+		76F7EB7D1AB7A2B500F841CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F7EB781AB7A2B500F841CC /* Main.storyboard */; };
+		76F7EB7E1AB7A2B500F841CC /* sweetRoll@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F7EB791AB7A2B500F841CC /* sweetRoll@3x.png */; };
+		76F7EB7F1AB7A2B500F841CC /* sweetRoll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F7EB7A1AB7A2B500F841CC /* sweetRoll@2x.png */; };
+		76F7EB801AB7A2B500F841CC /* numbersForGamersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F7EB7B1AB7A2B500F841CC /* numbersForGamersViewController.m */; };
+		76F7EBE91AB8933D00F841CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76F7EBE81AB8933D00F841CC /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +30,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7683ED701A8134B0005EC836 /* sweetRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sweetRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683ED701A8134B0005EC836 /* Parse Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683ED741A8134B0005EC836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7683ED751A8134B0005EC836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7683ED771A8134B0005EC836 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7683ED781A8134B0005EC836 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7683ED7A1A8134B0005EC836 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7683ED7B1A8134B0005EC836 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7683ED7E1A8134B0005EC836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7683ED801A8134B0005EC836 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7683ED831A8134B0005EC836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7683ED891A8134B0005EC836 /* sweetRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sweetRollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7683ED891A8134B0005EC836 /* Parse Team.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parse Team.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7683ED8E1A8134B0005EC836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7683ED8F1A8134B0005EC836 /* sweetRollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sweetRollTests.m; sourceTree = "<group>"; };
+		76F7EB781AB7A2B500F841CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		76F7EB791AB7A2B500F841CC /* sweetRoll@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweetRoll@3x.png"; sourceTree = "<group>"; };
+		76F7EB7A1AB7A2B500F841CC /* sweetRoll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweetRoll@2x.png"; sourceTree = "<group>"; };
+		76F7EB7B1AB7A2B500F841CC /* numbersForGamersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = numbersForGamersViewController.m; sourceTree = "<group>"; };
+		76F7EB7C1AB7A2B500F841CC /* numbersForGamersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numbersForGamersViewController.h; sourceTree = "<group>"; };
+		76F7EBE81AB8933D00F841CC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +79,8 @@
 		7683ED711A8134B0005EC836 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7683ED701A8134B0005EC836 /* sweetRoll.app */,
-				7683ED891A8134B0005EC836 /* sweetRollTests.xctest */,
+				7683ED701A8134B0005EC836 /* Parse Team.app */,
+				7683ED891A8134B0005EC836 /* Parse Team.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,13 +88,17 @@
 		7683ED721A8134B0005EC836 /* sweetRoll */ = {
 			isa = PBXGroup;
 			children = (
+				76F7EB781AB7A2B500F841CC /* Main.storyboard */,
+				76F7EB791AB7A2B500F841CC /* sweetRoll@3x.png */,
+				76F7EB7A1AB7A2B500F841CC /* sweetRoll@2x.png */,
+				76F7EB7B1AB7A2B500F841CC /* numbersForGamersViewController.m */,
+				76F7EB7C1AB7A2B500F841CC /* numbersForGamersViewController.h */,
 				7683ED771A8134B0005EC836 /* AppDelegate.h */,
 				7683ED781A8134B0005EC836 /* AppDelegate.m */,
 				7683ED7A1A8134B0005EC836 /* ViewController.h */,
 				7683ED7B1A8134B0005EC836 /* ViewController.m */,
-				7683ED7D1A8134B0005EC836 /* Main.storyboard */,
+				76F7EBE81AB8933D00F841CC /* LaunchScreen.xib */,
 				7683ED801A8134B0005EC836 /* Images.xcassets */,
-				7683ED821A8134B0005EC836 /* LaunchScreen.xib */,
 				7683ED731A8134B0005EC836 /* Supporting Files */,
 			);
 			path = sweetRoll;
@@ -122,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7683ED6F1A8134B0005EC836 /* sweetRoll */ = {
+		7683ED6F1A8134B0005EC836 /* ParseTeam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7683ED931A8134B0005EC836 /* Build configuration list for PBXNativeTarget "sweetRoll" */;
+			buildConfigurationList = 7683ED931A8134B0005EC836 /* Build configuration list for PBXNativeTarget "ParseTeam" */;
 			buildPhases = (
 				7683ED6C1A8134B0005EC836 /* Sources */,
 				7683ED6D1A8134B0005EC836 /* Frameworks */,
@@ -134,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = sweetRoll;
+			name = ParseTeam;
 			productName = sweetRoll;
-			productReference = 7683ED701A8134B0005EC836 /* sweetRoll.app */;
+			productReference = 7683ED701A8134B0005EC836 /* Parse Team.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7683ED881A8134B0005EC836 /* sweetRollTests */ = {
+		7683ED881A8134B0005EC836 /* ParseTeamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7683ED961A8134B0005EC836 /* Build configuration list for PBXNativeTarget "sweetRollTests" */;
+			buildConfigurationList = 7683ED961A8134B0005EC836 /* Build configuration list for PBXNativeTarget "ParseTeamTests" */;
 			buildPhases = (
 				7683ED851A8134B0005EC836 /* Sources */,
 				7683ED861A8134B0005EC836 /* Frameworks */,
@@ -152,9 +163,9 @@
 			dependencies = (
 				7683ED8B1A8134B0005EC836 /* PBXTargetDependency */,
 			);
-			name = sweetRollTests;
+			name = ParseTeamTests;
 			productName = sweetRollTests;
-			productReference = 7683ED891A8134B0005EC836 /* sweetRollTests.xctest */;
+			productReference = 7683ED891A8134B0005EC836 /* Parse Team.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,6 +179,7 @@
 				TargetAttributes = {
 					7683ED6F1A8134B0005EC836 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4AW3ZWSN4J;
 					};
 					7683ED881A8134B0005EC836 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -175,7 +187,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7683ED6B1A8134B0005EC836 /* Build configuration list for PBXProject "sweetRoll" */;
+			buildConfigurationList = 7683ED6B1A8134B0005EC836 /* Build configuration list for PBXProject "ParseTeam" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +200,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7683ED6F1A8134B0005EC836 /* sweetRoll */,
-				7683ED881A8134B0005EC836 /* sweetRollTests */,
+				7683ED6F1A8134B0005EC836 /* ParseTeam */,
+				7683ED881A8134B0005EC836 /* ParseTeamTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,9 +211,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7683ED7F1A8134B0005EC836 /* Main.storyboard in Resources */,
-				7683ED841A8134B0005EC836 /* LaunchScreen.xib in Resources */,
+				76F7EBE91AB8933D00F841CC /* LaunchScreen.xib in Resources */,
+				76F7EB7E1AB7A2B500F841CC /* sweetRoll@3x.png in Resources */,
 				7683ED811A8134B0005EC836 /* Images.xcassets in Resources */,
+				76F7EB7F1AB7A2B500F841CC /* sweetRoll@2x.png in Resources */,
+				76F7EB7D1AB7A2B500F841CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F7EB801AB7A2B500F841CC /* numbersForGamersViewController.m in Sources */,
 				7683ED7C1A8134B0005EC836 /* ViewController.m in Sources */,
 				7683ED791A8134B0005EC836 /* AppDelegate.m in Sources */,
 				7683ED761A8134B0005EC836 /* main.m in Sources */,
@@ -238,29 +253,10 @@
 /* Begin PBXTargetDependency section */
 		7683ED8B1A8134B0005EC836 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7683ED6F1A8134B0005EC836 /* sweetRoll */;
+			target = 7683ED6F1A8134B0005EC836 /* ParseTeam */;
 			targetProxy = 7683ED8A1A8134B0005EC836 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7683ED7D1A8134B0005EC836 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7683ED7E1A8134B0005EC836 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7683ED821A8134B0005EC836 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7683ED831A8134B0005EC836 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7683ED911A8134B0005EC836 /* Debug */ = {
@@ -297,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -321,7 +317,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -332,8 +329,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2305a9f9-39b7-4bd2-846d-61257944b966";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -343,9 +342,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = sweetRoll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Parse Team";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -354,9 +356,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = sweetRoll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Parse team";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -375,7 +380,7 @@
 				);
 				INFOPLIST_FILE = sweetRollTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Parse Team";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sweetRoll.app/sweetRoll";
 			};
 			name = Debug;
@@ -390,7 +395,7 @@
 				);
 				INFOPLIST_FILE = sweetRollTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Parse team";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sweetRoll.app/sweetRoll";
 			};
 			name = Release;
@@ -398,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7683ED6B1A8134B0005EC836 /* Build configuration list for PBXProject "sweetRoll" */ = {
+		7683ED6B1A8134B0005EC836 /* Build configuration list for PBXProject "ParseTeam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7683ED911A8134B0005EC836 /* Debug */,
@@ -407,21 +412,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7683ED931A8134B0005EC836 /* Build configuration list for PBXNativeTarget "sweetRoll" */ = {
+		7683ED931A8134B0005EC836 /* Build configuration list for PBXNativeTarget "ParseTeam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7683ED941A8134B0005EC836 /* Debug */,
 				7683ED951A8134B0005EC836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7683ED961A8134B0005EC836 /* Build configuration list for PBXNativeTarget "sweetRollTests" */ = {
+		7683ED961A8134B0005EC836 /* Build configuration list for PBXNativeTarget "ParseTeamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7683ED971A8134B0005EC836 /* Debug */,
 				7683ED981A8134B0005EC836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

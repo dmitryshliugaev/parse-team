@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7683ED6F1A8134B0005EC836"
-               BuildableName = "sweetRoll.app"
-               BlueprintName = "sweetRoll"
-               ReferencedContainer = "container:sweetRoll.xcodeproj">
+               BuildableName = "Parse team.app"
+               BlueprintName = "ParseTeam"
+               ReferencedContainer = "container:ParseTeam.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7683ED881A8134B0005EC836"
-               BuildableName = "sweetRollTests.xctest"
-               BlueprintName = "sweetRollTests"
-               ReferencedContainer = "container:sweetRoll.xcodeproj">
+               BuildableName = "Parse team.xctest"
+               BlueprintName = "ParseTeamTests"
+               ReferencedContainer = "container:ParseTeam.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7683ED881A8134B0005EC836"
-               BuildableName = "sweetRollTests.xctest"
-               BlueprintName = "sweetRollTests"
-               ReferencedContainer = "container:sweetRoll.xcodeproj">
+               BuildableName = "Parse team.xctest"
+               BlueprintName = "ParseTeamTests"
+               ReferencedContainer = "container:ParseTeam.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7683ED6F1A8134B0005EC836"
-            BuildableName = "sweetRoll.app"
-            BlueprintName = "sweetRoll"
-            ReferencedContainer = "container:sweetRoll.xcodeproj">
+            BuildableName = "Parse team.app"
+            BlueprintName = "ParseTeam"
+            ReferencedContainer = "container:ParseTeam.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,13 +72,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7683ED6F1A8134B0005EC836"
-            BuildableName = "sweetRoll.app"
-            BlueprintName = "sweetRoll"
-            ReferencedContainer = "container:sweetRoll.xcodeproj">
+            BuildableName = "Parse team.app"
+            BlueprintName = "ParseTeam"
+            ReferencedContainer = "container:ParseTeam.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,13 +91,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7683ED6F1A8134B0005EC836"
-            BuildableName = "sweetRoll.app"
-            BlueprintName = "sweetRoll"
-            ReferencedContainer = "container:sweetRoll.xcodeproj">
+            BuildableName = "Parse team.app"
+            BlueprintName = "ParseTeam"
+            ReferencedContainer = "container:ParseTeam.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
